@@ -1,24 +1,79 @@
 <!DOCTYPE html>
+<html lang="pt_BR">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <title>LOGIN - GESTBUCALSB</title>
-</head>
-<body>
-<section class="login-area">
-    <div class="login">
-<div class="login-name"> <h1>Bem vindo(a) ao LOGIN</h1></div>
-<h2 class="preencha">Preencha os dados para acessar!</h2>
-<form method="POST">
-<input type="text" name="nome" placeholder="Nome do Usuário" autofocus>
-<input type="password" name="senha" placeholder="Insira sua Senha" autofocus>
-<input type="submit" value="Entrar">
-</form>
-<a href="#">Esqueci minha senha!</a>
-<p>Ainda não tem uma conta?</p><a href="#">Cadastre-se agora!</a>
+    <title>Login - GESTBUCALSB</title>
+</head> 
+<body>   
+ 
+<!-- Header -->      
 
-    </div>
-    
-</section>
+  <header>
+      <div class="logo">
+    <a href="#"><img src=".\assets\gestbucal.png"></a>
+      </div>
+      <nav>
+  <ul>
+    <li><a href=".\loginindex.html">Início</a></li>
+    <li><a href="#">Acervo</a></li>
+    <li><a href="#">Quem somos</a></li>
+    <li><a href="#">Contato</a></li>
+    <li><a href=".\loginindex.html">ENTRAR</a></li>
+    <li><a href="#">CADASTRE-SE</a></li>
+  </ul>
+      </nav>
+   </header>			
 
+<!-- Login -->
+
+        <section class="login-area">
+            <div class="login">
+                <div class="login-name"> <h1>Bem vindo(a) ao LOGIN</h1></div>
+                <h2 class="preencha">Preencha os dados para acessar!</h2>
+                <form method="POST">
+                <input type="text" name="nome" placeholder="Nome do Usuário" autofocus>
+                <input type="password" name="senha" placeholder="Insira sua Senha" autofocus>
+                <input type="submit" value="Entrar">
+                </form>
+                <a href="#">Esqueci minha senha!</a>
+                <p>Ainda não tem uma conta?</p><a href="#">Cadastre-se agora!</a>
+            </div>
+        </section>
+
+  <!-- Footer -->
+
+<footer>
+      <div class="menu">
+        <div class="textos">
+          <ul>
+            <h3>GestBucal</h3>
+            <li><a href=".\loginindex.html">Início</a></li>
+            <li><a href="#">Acervo</a></li>
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+          <ul>
+            <h3>Endereço</h3>
+            <li><a href="https://goo.gl/maps/15PdF3D4uSJsjGQv6" target="_blank"> 
+                <p>Avenida Prof. Moraes Rego, 1235</p>
+                <p>Cidade Universitária, Recife</p> 
+                <p>PE, 50670-901</p>
+            </a></li>
+          </ul>
+          <ul>
+            <h3>Contato</h3>
+            <li>(81) 3194-4900</li>
+            <li>(81) 3038-6405</li>
+          </ul>
+        </div>
+      </div>
+      <div class="dominio">
+        <div class="autoria">
+          <a href="https://www.ufpe.br/" target="_blank">UFPE</a>
+        </div>
+        <div class="copyright">2022 Copyright &copy; GestBucal</div>
+      </div>
+</footer>
 </body>
+</html>
