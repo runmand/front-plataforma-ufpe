@@ -35,7 +35,7 @@ nav ul li a {
 	text-decoration: none;
 	color: #D2D9DC;
 	font-weight: bold;
-  transition: .5s;
+    transition: .5s;
 }
 
 header ul li a:hover 
@@ -75,13 +75,13 @@ header ul li a:hover
        
   }
 }
-	
+
 /* LOGIN */
 
 body{
-  background-color: #D2D9DC;
-  font-family:Arial, Helvetica, sans-serif;
-  overflow: auto;
+    background-color: #D2D9DC;
+    font-family:Arial, Helvetica, sans-serif;
+    overflow: hidden;
 }
 
 .login-area{
@@ -155,134 +155,135 @@ margin-bottom: 0;
 }
 
 a{
-  color: royalblue;
-  font-size: 14px;
-  text-decoration: none;
+    color: royalblue;
+    font-size: 14px;
+    text-decoration: none;
 }
 
 /* Footer */
 
 footer {
-  bottom: 0;
-  background: #6D141A;
-  width: 100vw;
-  max-width: 100vw;
-  overflow: auto
-}
-
-footer a {
-  color: rgb(231, 231, 231);
-  text-decoration: none;
-}
-
-li {
-  list-style: none;
-}
-
-main {
-  flex: 1;
-}
-
-/* Textos do footer */
-
-footer .menu {
-  padding: 2rem 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-direction: row;
-}
-
-footer .menu .textos {
-  display: flex;
-  flex-direction: row;
-}
-
-footer .menu .textos ul {
-  margin: 20px;
-}
-
-footer .menu .textos ul li {
-  margin: 5px;
-  color: #ffff;
-}
-
-footer .menu .textos h3 {
-  margin-bottom: 10px;
-  text-align: center;
-  color: #ffff;
-}
-
-footer .menu .textos p {
-  text-align: center;
-  color: #ffff;
-}
-
-/* Copyright e autoria */
-
-footer .dominio {
-  padding: 1rem 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #5a0f14;
-}
-
-footer .dominio .autoria {
-  display: flex;
-  flex-wrap: nowrap;
-  color: #ffff;
-}
-
-footer .dominio .autoria > a {
-  margin-right: 15px;
-  color: #ffff;
-}
-
-footer .copyright {
-  color: #ffff;
-  margin-right: 15px;
-}
-
-
-/* Tentativa de responsividade */
-@media screen and (max-width: 768px) {
+    bottom: 0;
+    background: #6D141A;
+    width: 100vw;
+    max-width: 100vw;
+    overflow: auto;
+  }
+  
+  footer a {
+    color: rgb(231, 231, 231);
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  /* Textos do footer */
+  
   footer .menu {
-    flex-direction: column;
-    text-align: center;
-  }
-  footer .menu .textos ul {
-    margin: 10px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  footer .menu .textos {
-    flex-wrap: wrap;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
     justify-content: space-evenly;
+    flex-direction: row;
   }
-
-  footer .dominio {
-    flex-direction: column;
-  }
-
-  footer .dominio > .copyright {
-    margin-top: 10px;
-  }
-}
-
-@media screen and (max-width: 380px) {
+  
   footer .menu .textos {
-    justify-content: center;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
   }
-
-  footer .dominio .autoria {
-    justify-content: center;
+  
+  footer .menu .textos ul {
+    margin: 20px;
   }
-
-  footer .dominio .autoria a {
-    margin: 0;
+  
+  footer .menu .textos ul li {
+    margin: 5px;
+    color: #ffff;
+  }
+  
+  footer .menu .textos h3 {
+    margin-bottom: 10px;
     text-align: center;
+    color: #ffff;
   }
-}
+  
+  footer .menu .textos p {
+    text-align: center;
+    color: #ffff;
+  }
+  
+  /* Copyright e autoria */
+  
+  footer .dominio {
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #5a0f14;
+  }
+  
+  footer .dominio .autoria {
+    display: flex;
+    flex-wrap: nowrap;
+    color: #ffff;
+  }
+  
+  footer .dominio .autoria > a {
+    margin-right: 15px;
+    color: #ffff;
+  }
+  
+  footer .copyright {
+    color: #ffff;
+    margin-right: 15px;
+  }
+  
+  
+  /* Tentativa de responsividade */
+
+  @media screen and (max-width: 768px) {
+    footer .menu {
+      flex-direction: column;
+      text-align: center;
+    }
+    footer .menu .textos ul {
+      margin: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    footer .menu .textos {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+  
+    footer .dominio {
+      flex-direction: column;
+    }
+  
+    footer .dominio > .copyright {
+      margin-top: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 380px) {
+    footer .menu .textos {
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    footer .dominio .autoria {
+      justify-content: center;
+    }
+  
+    footer .dominio .autoria a {
+      margin: 0;
+      text-align: center;
+    }
+  }
