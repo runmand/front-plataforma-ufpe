@@ -106,13 +106,16 @@ header ul li a:hover
        
   }
 }
+h2{
+  margin-top: 10px;
+}
 
 /* LOGIN */
 
 body{
-    background-color: #D2D9DC;
-    font-family:Arial, Helvetica, sans-serif;
-    overflow: auto;
+  background-color: #D2D9DC;
+  font-family:Arial, Helvetica, sans-serif;
+  overflow: auto;
 }
 
 .login-area{
@@ -135,57 +138,59 @@ border-radius: 10px;
 
 .login form {
 
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 
 .login-name {
-    justify-content: center;
-    align-items: center;
-    color: #6D141A;
+  justify-content: center;
+  align-items: center;
+  color: #6D141A;
 }
 
 .preencha{
-    font-size: 14px;
-    font-family:Arial, Helvetica, sans-serif;
-    color: black;
-    
-   
+  font-size: 14px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: black;
+  
+ 
 }
 
-button{
-display: block;
-color: white;
-background-color: #6D141A;
-font-size: 18px;
-text-transform: uppercase;
-font-weight: bold;
-margin-bottom: 10px;
-border-radius: 8px;
-height:fit-content;
-padding: 10px 10px 10px 10px;
-cursor: pointer;
-text-decoration:none;
-box-shadow: none;
+.button-body {
+  display: block;
+  color: white;
+  background-color: #6D141A;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  height:fit-content;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+  text-decoration:none;
+  box-shadow: none;
+  }
+
+p {
+  color: #6D141A;
+  font-size: 14px;
+  margin-bottom: 0;
 }
 
-p{
-color: #6D141A;
-font-size: 14px;
-margin-bottom: 0;
+a {
+  color:white;
+  font-size: 14px;
+  text-decoration: none;
 }
 
-a{
-    color:white;
-    font-size: 14px;
-    text-decoration: none;
-}
-h2{
+h2 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 /* Footer */
 
 footer {
