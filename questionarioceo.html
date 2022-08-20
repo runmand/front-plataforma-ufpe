@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleceo.css">
+    <link rel="stylesheet" href="ceojs.js">
+   
     <title>QUESTIONÁRIO - CEO</title>
 </head>
 
@@ -21,6 +23,7 @@
       <li><a href="#">Quem somos</a></li>
       <li><a href="#">Contato</a></li>
       <li><a href=".\loginindex.html">
+        
         <button class="button-header">Entrar</button></a>
       </li>
       <li><a href="indexregister.html">
@@ -130,14 +133,13 @@
               <br>
                 <h2> Perfil - Formação profissional</h2><br>
                 <label><b> 2) Qual a sua função no CEO?</b></label> <br>
-                <input type="radio" name="opcao1" id="op1func" value="yes">&nbsp;
+                <input type="radio" name="opcao1" id="op1">&nbsp;
                 <label for="op1func">Gerente</label><br>
-                <input type="radio" name="opcao" id="op2" value="no">&nbsp;
+                <input type="radio" name="opcao" id="op2">&nbsp;
                 <label for="op2func">Cirurgião Dentista que atua nas especialidades do CEO<br></label>
-                <div class="conditional" data-cond-option="formation" data-cond-value="yes">
                   <label><b> 3) Se você é Gerente responda: Você tem formação em Saúde Coletiva/Gestão Pública?</b></label><br>
                     <label><input type="radio" name="op1" value="1"><span></span> Sim</label>
-                    <label><input type="radio" name="op2" value="0"><span></span> Não</label>
+                    <label><input type="radio" id="op21" name="op21" value="0"><span></span> Não</label>
                     <label><input type="radio" name="op3"value="0"> <span></span> Não sou gerente</label>
                     <br>
                     <label><b> 4) Se você for Cirurgião Dentista que atua em especialidades do CEO, qual (is) especialidade(s) você atua?</b></label> 
@@ -311,3 +313,4 @@
                     <input type="button" value="Voltar"><br><br>
                      </div>
                      
+                   
