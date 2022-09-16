@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="loginstyle.css">
-    <title>Login - GESTBUCALSB</title>
+    <link rel="stylesheet" href="contatostyle.css">
+    <title>Fale conosco - GESTBUCALSB</title>
 </head> 
 <body>   
  
@@ -28,23 +28,28 @@
       </nav>
    </header>			
 
-<!-- Login -->
-<section class="login-area">
-    <div class="login">
-<div class="login-name"> <h1>Bem vindo(a) ao LOGIN</h1></div>
-<h2 class="preencha">Preencha os dados para acessar!</h2>
-<form method="POST">
-<input type="text" name="nome" placeholder="Nome do Usuário" autofocus>
-<input type="password" name="senha" placeholder="Insira sua Senha" autofocus>
-<input type="submit" value="Entrar">
-</form>
-<a href="recover.html">Esqueci minha senha!</a>
-<p>Ainda não tem uma conta?</p><a href="#">Cadastre-se agora!</a>
+<!-- Form contato -->
 
-    </div>
-    
+<body>
+  <div class="container">
+<section>
+    <h2> Formulário de Contato</h2>
+    <form action="https://api.staticforms.xyz/submit" method="post">
+        <label>Nome</label>
+        <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+        <label>Mensagem</label>
+        <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+
+        <input type="hidden" name="accessKey" value="3d3a7d87-5e11-459b-9de0-e4c68e9f10ed">
+        <input type="hidden" name="redirectTo" src="obrigadocontatoindex.html">
+    </form>
 </section>
- 
+</div>
+</body>
+
 <!-- Footer -->
 
  <footer>
@@ -54,8 +59,8 @@
           <h3>GestBucal</h3>
           <li><a href=".\inicio.html">Início</a></li>
           <li><a href=".\acervoinicio.html">Acervo</a></li>
-          <li><a href="#">Sobre nós</a></li>
-          <li><a href=".\contatoindex.html">Contato</a></li>
+          <li><a href=".\contatoindex.html">Sobre nós</a></li>
+          <li><a href="#">Contato</a></li>
         </ul>
         <ul>
           <h3>Endereço</h3>
