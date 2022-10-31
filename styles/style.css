@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-size: 100%;
+    list-style: none;
+    color:inherit;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+/*INICIO NAVBAR*/
+.container{
+    display: flex;   
+    min-height: 14vh;    
+    background-color: #6D141A;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo-item{
+    display:flex;
+    align-items: flex-start;
+    margin: 0 5% 0 5%;
+    color: white;
+}
+.nav-item{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    color:white;
+    font-weight: bolder;
+}
+header a {
+    color:white;
+    font-size: 120%;
+    list-style-type: none;
+    text-decoration: none;
+}
+header a:hover{
+    color: #ffff;
+    text-decoration: underline;
+}
+.item{
+    padding: 30px;
+    margin:30px
+
+}
+.nav-button{
+    background-color: white;
+    color: #6D141A;
+    border-radius: 3px;
+    padding: 2px;
+    transition: 1s;
+}
+.nav-button:hover{
+    color:#6D141A;
+    padding: 10px;
+
+}
+/* TERMINO NAVBAR*/
+
+
+
+/*INICIO FOOTER*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    min-height: 26vh;
+    background-color: #6D141A;
+    justify-content: space-around;
+    color:white;
+    
+     }
+.footer-item{
+    color:white;
+    display: flex;        
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    align-items: center;
+    text-align: center;
+    margin: 2% 0 2% 0;
+    font-weight: bolder;
+}
+
+.sub-footer{
+    display: flex;
+    align-items: center;      
+    min-width: 100%;
+    justify-content: center;
+    gap: 30px;
+    justify-content: space-around; 
+}
+.footer-nav {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.copyrigth{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 30px;
+    background-color:  #5a0f14;
+    justify-content: space-between;
+    gap: 0 15px 0 15px;
+    
+}
+.copy-item{
+    padding: 0 15px 0 15px;
+}
+/* TERMINO NAVBAR*/
+
+/* RESPOSIVIDADE */
+@media only screen and (max-width: 840px) {
+    .container{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .main-container{
+        grid-template-areas: 
+        "item1 item1 item1 item1"
+        "item2 item2 item2 item2";
+}
+
+}
+
+@media only screen and (max-width: 720px) {
+    .container{
+        flex-direction: column;
+        
+    }
+    .nav-item{
+        flex-wrap: wrap;
+    }
+    .sub-footer{
+        flex-direction: column;
+    }
+    }
+  
+
+  @media only screen and (max-width: 420px) {
+    .nav-item{
+        flex-wrap: wrap;
+       
+        
+    }
+  }
+  

@@ -1,0 +1,44 @@
+.cards{
+    min-width: 20vh;
+    min-height: 57.5vh;
+    background-color:whitesmoke;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+.card{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    gap: 10px;
+    width: 400px;
+    height: 250px;
+    text-decoration: none;
+    color:black;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 10px #bebebe,
+             -20px -20px 15px #ffffff;
+   
+    
+}
+.card a{
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black
+    
+}
+.title{
+    font-size: 20px;
+    color: black;
+    margin:20px;
+    font-family:Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/styles/contatostyle.css">
+  <script src="https://kit.fontawesome.com/2b5a340263.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="https://lh3.googleusercontent.com/ZPuYmJnl2t1TfUOXgKZIjdbK0nk1t40kQbmryb78vhdSPNlxRxiRz4p1pT1W2lmBWx6yfoFVoWKccDOeMfhzxjjx3uLxDH7RpTzsm65X1f3fKKAhPbDLlJt7cb8HPYkcc4nlrTxe=w2400" type="image/x-icon">
+  <title>GestBucal</title>
+</head>
+
+<body>
+  <header class="container">
+    <div class="logo-item">
+      <img src="/assets/gestbucalbranco.png" alt="" width="60px" height="60px">
+    </div>
+    <div class="item">
+      <ul class="nav-item">
+        <li><a href="/pages/index.html">Inicio</a></li>
+        <li><a href="/pages/acervoinicio.html">Acervo</a></li>
+        <li><a href="/pages/quemsomos.html">Quem Somos</a></li>
+        <li><a href="/pages/contato.html">Contato</a></li>
+        <li><a href="/pages/login.html" class="nav-button">Entrar <i class="fa-solid fa-right-to-bracket"></i></a></li>
+        <li><a href="/pages/cadastro.html" class="nav-button">Cadastre-se <i class="fa-regular fa-user"></i></a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Form contato -->
+
+  <body>
+    <div class="main-container">
+      <section>
+        <h2> Formulário de Contato</h2>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+          <label>Nome</label>
+          <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+          <label>Email</label>
+          <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+          <label>Mensagem</label>
+          <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+          <button type="submit">Enviar</button>
+
+          <input type="hidden" name="accessKey" value="3d3a7d87-5e11-459b-9de0-e4c68e9f10ed">
+          <input type="hidden" name="redirectTo" src="obrigadocontatoindex.html">
+        </form>
+      </section>
+    </div>
+  </body>
+
+  <!-- Footer -->
+
+  <footer class="footer">
+
+    <div class="sub-footer">
+      <div class="footer-item">
+        <ul class="footer-nav">
+          <li>
+            <h4>GESTBUCAL</h4>
+          </li>
+          <li><a href="/pages/index.html">Inicio</a></li>
+          <li><a href="/pages/acervoceo.html">Acervo</a></li>
+          <li><a href="/pages/quemsomos.html">Quem Somos</a></li>
+          <li><a href="#">Contato</a></li>
+
+        </ul>
+      </div>
+      <div class="footer-item">
+        <h3>Endereço</h3>
+        <p>Avenida Prof. Moraes Rego, 1234</p>
+        <p>Cidade Univesitária, Recife</p>
+        <p>PE,50670-901</p>
+      </div>
+      <div class="footer-item">
+        <h3>Contato</h3>
+        <p>(81)3194-4900</p>
+        <p>(81)3038-6405</p>
+      </div>
+    </div>
+    <div class="copyrigth">
+      <div class="copy-item">
+        <p>UFPE</p>
+      </div>
+      <div class="copy-item">
+        <p>2022 Copyrigh <i class="fa fa-copyright" aria-hidden="true"></i> GestBucal</p>
+      </div>
+    </div>
+
+  </footer>
+</body>
+
+</html>
